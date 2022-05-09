@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
+
+
+* {
+    box-sizing: border-box;
+    font-family: Raleway;
+}
+
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul {
+    margin: 0
+}
+
+.main-header {
+    background-color: rgba(100, 100, 255, .6);
+    background-image: url('image/header-bg.jpg');
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px;
+}
