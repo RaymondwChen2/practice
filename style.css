@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
 
-
 * {
     box-sizing: border-box;
     font-family: Raleway;
@@ -51,3 +50,65 @@ html, body {
     background-size: cover;
     padding-bottom: 30px;
 }
+
+.band-name {
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+.band-name-large {
+    font-size: 9em;
+}
+
+.content-section {
+    margin: 1em
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 2.5em
+}
+
+.section-header {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.about-band-image {
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+    border-radius: 50%;
+}
+
+.main-footer {
+    background-color: rgb(90, 53, 157);
+    color: white;
+    padding: .25em 0;
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav li{
+    padding: 0 .5em;
+}
+
+.footer-nav img {
+    width: 30px;
+    height: 30px;
+}
+
