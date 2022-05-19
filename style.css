@@ -112,3 +112,8 @@ html, body {
     height: 30px;
 }
 
+.index-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
