@@ -70,7 +70,7 @@ html, body {
 .container {
     max-width: 100%;
     margin: 0 auto;
-    padding: 0 1.5em;
+    padding: 0;
 }
 
 .section-header {
@@ -115,7 +115,6 @@ html, body {
 .index-content{
     display: flex;
     flex-direction: column;
-    align-items: center;
     padding: 4em;
 }
 
@@ -132,7 +131,7 @@ html, body {
     border: 2px solid #2D9CDB;
     background-color: rgba(255, 255, 255, .5);
     border-radius: 0;
-    font-size: 1em;
+    font-size: 1.5em;
     font-weight: lighter;
     padding-left: 2em;
     padding-right: 2em;
@@ -140,4 +139,47 @@ html, body {
 
 .btn-header:hover{
     background-color: rgba(255, 255, 255, .6);
+}
+
+.btn-play {
+    display: block;
+    margin: 0 auto;
+    color: #2D9CDB;
+    font-size: 4em;
+    border-radius: 50%;
+    padding: 0;
+    width: 100px;
+    height: 100px;
+}
+
+.tour-row {
+    border-bottom: 1px solid black;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+.tour-row:last-child {
+    border-bottom: none;
+}
+
+.tour-item {
+    display: inline-block;
+    padding-right: .5em;
+}
+
+.tour-date {
+    color: #555;
+    font-weight: bold;
+    width: 11%;
+}
+
+.tour-city {
+    width: 24%;
+}
+
+.tour-arena {
+    width: 42%;
+}
+
+.tour-btn {
+    max-width: 19%;
 }
