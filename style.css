@@ -119,3 +119,8 @@ html, body {
     padding: 4em;
     background-color: rgb(144, 14, 177);
 }
+
+.btn {
+    text-align: center;
+    vertical-align: middle;
+}
