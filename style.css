@@ -68,7 +68,7 @@ html, body {
 }
 
 .container {
-    max-width: 100%;
+    max-width: 990px;
     margin: 0 auto;
     padding: 0;
 }
@@ -182,4 +182,16 @@ html, body {
 
 .tour-btn {
     max-width: 19%;
+}
+.btn-prim {
+    color: white;
+    background-color: #56ccf2;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.btn-prim:hover {
+    background-color: #2D9CDB;
 }
