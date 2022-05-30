@@ -238,8 +238,26 @@ html, body {
 }
 
 .cart-column {
+    display: flex;
+    align-items: center;
     border-bottom: 1px solid black;
     margin-right: 1.5em;
     padding-bottom: 10px;
     margin-top: 10px;
+}
+
+.cart-row {
+    display: flex;
+}
+
+.cart-item {
+    width: 45%;
+}
+
+.cart-price {
+    width: 20%
+}
+
+.cart-quantity {
+    width: 35%;
 }
