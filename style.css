@@ -330,5 +330,9 @@ html, body {
 .btn-purchase {
     display: block;
     margin: 40px auto 80px auto;
-    font-size: 1.75em;
+    font-size: 1.25em;
+}
+.btn-purchase:hover {
+    background-color: grey;
+    color: white;
 }
