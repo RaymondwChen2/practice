@@ -42,3 +42,25 @@
     padding-bottom: 8px;
     border-radius: 10px;
 }
+
+.card-container {
+    display: flex;
+    width: 400px;
+    height: auto;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: rgb(51, 51, 124);
+    border-bottom: 10px solid rgb(207, 80, 207);
+}
+
+.img-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.card-info {
+    margin-left: auto;
+    margin-right: auto;
+}
